@@ -120,13 +120,21 @@ claude desktop-----> settings----> developer---> edit config--->claude_desktop_c
 
 {
   "mcpServers": {
+  
     "StockAnalysisServer": {
+    
       "command": "uv",
+      
       "args": [
+      
         "--directory",
+        
         "C:\\WINDOWS\\system32\\StockAnalysisServer",
+        
         "run",
+        
         "stock_mcp_server.py"
+        
       ]
     }
   }
