@@ -115,6 +115,28 @@ Installed 35 packages in 15.10s
 
 
 
+********************************************************************************************
+claude desktop-----> settings----> developer---> edit config--->claude_desktop_config.json
+
+{
+  "mcpServers": {
+    "StockAnalysisServer": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\WINDOWS\\system32\\StockAnalysisServer",
+        "run",
+        "stock_mcp_server.py"
+      ]
+    }
+  }
+}
+
+******************************************************************************************************
+then see TOOLS
+
+
+
 
 
 
